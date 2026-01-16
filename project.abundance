@@ -39,24 +39,24 @@
     },
     {
       "atomType": "Input",
-      "x": 0.031349999999999996,
-      "y": 0.19,
+      "x": 0.0264,
+      "y": 0.16,
       "uniqueID": "id-886",
       "name": "Text",
       "type": "string"
     },
     {
       "atomType": "Input",
-      "x": 0.031349999999999996,
-      "y": 0.304,
+      "x": 0.0264,
+      "y": 0.256,
       "uniqueID": "id-891",
       "name": "Font_Size",
       "type": "number"
     },
     {
       "atomType": "Input",
-      "x": 0.031349999999999996,
-      "y": 0.418,
+      "x": 0.0264,
+      "y": 0.352,
       "uniqueID": "id-924",
       "name": "ply_thickness"
     },
@@ -231,8 +231,8 @@
     },
     {
       "atomType": "Input",
-      "x": 0.031349999999999996,
-      "y": 0.532,
+      "x": 0.0264,
+      "y": 0.44799999999999995,
       "uniqueID": "id-986",
       "name": "Margin"
     },
@@ -337,32 +337,32 @@
         },
         {
           "atomType": "Input",
-          "x": 0.031349999999999996,
-          "y": 0.19,
+          "x": 0.0264,
+          "y": 0.16,
           "uniqueID": "id-902",
           "name": "width",
           "type": "number"
         },
         {
           "atomType": "Input",
-          "x": 0.031349999999999996,
-          "y": 0.304,
+          "x": 0.0264,
+          "y": 0.256,
           "uniqueID": "id-903",
           "name": "length",
           "type": "number"
         },
         {
           "atomType": "Input",
-          "x": 0.031349999999999996,
-          "y": 0.418,
+          "x": 0.0264,
+          "y": 0.352,
           "uniqueID": "id-904",
           "name": "radius",
           "type": "number"
         },
         {
           "atomType": "Input",
-          "x": 0.031349999999999996,
-          "y": 0.532,
+          "x": 0.0264,
+          "y": 0.44799999999999995,
           "uniqueID": "id-905",
           "name": "height",
           "type": "number"
@@ -452,8 +452,8 @@
         },
         {
           "atomType": "Input",
-          "x": 0.031349999999999996,
-          "y": 0.19,
+          "x": 0.0264,
+          "y": 0.16,
           "uniqueID": "id-1065",
           "name": "InputShape",
           "type": "geometry"
