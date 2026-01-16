@@ -125,8 +125,8 @@
     },
     {
       "atomType": "Move",
-      "x": 0.6551724137931034,
-      "y": 0.5891238670694864,
+      "x": 0.6579999999999999,
+      "y": 0.4108761329305136,
       "uniqueID": "id-956",
       "ioValues": [
         {
@@ -195,8 +195,8 @@
     },
     {
       "atomType": "Equation",
-      "x": 0.5927734375,
-      "y": 0.3867069486404834,
+      "x": 0.5646666666666667,
+      "y": 0.32628398791540786,
       "uniqueID": "id-977",
       "name": "-x/2 + y/2",
       "ioValues": [
@@ -425,10 +425,25 @@
       "fileTypeVersion": 1
     },
     {
+      "atomType": "Readme",
+      "x": 0.7646666666666667,
+      "y": 0.8398791540785498,
+      "uniqueID": "id-1326",
+      "name": "README",
+      "ioValues": [
+        {
+          "name": "value",
+          "ioValue": "__GEOMETRY_INPUT__"
+        }
+      ],
+      "readMeText": "Readme text here",
+      "global": true
+    },
+    {
       "atomType": "GitHubMolecule",
-      "x": 0.7573333333333334,
-      "y": 0.7522658610271903,
-      "uniqueID": "id-1241",
+      "x": 0.6413333333333333,
+      "y": 0.7794561933534743,
+      "uniqueID": "id-1339",
       "name": "Get-Width",
       "ioValues": [
         {
@@ -442,7 +457,7 @@
           "atomType": "Output",
           "x": 0.98,
           "y": 0.5,
-          "uniqueID": "id-1232",
+          "uniqueID": "id-1329",
           "ioValues": [
             {
               "name": "number or geometry",
@@ -454,7 +469,7 @@
           "atomType": "Input",
           "x": 0.0264,
           "y": 0.16,
-          "uniqueID": "id-1233",
+          "uniqueID": "id-1330",
           "name": "InputShape",
           "type": "geometry"
         },
@@ -462,7 +477,7 @@
           "atomType": "Code",
           "x": 0.358,
           "y": 0.22054380664652568,
-          "uniqueID": "id-1234",
+          "uniqueID": "id-1331",
           "ioValues": [
             {
               "name": "shape",
@@ -476,7 +491,7 @@
           "atomType": "Circle",
           "x": 0.2366666666666667,
           "y": 0.48942598187311176,
-          "uniqueID": "id-1235",
+          "uniqueID": "id-1332",
           "ioValues": [
             {
               "name": "diameter",
@@ -488,16 +503,11 @@
           "atomType": "Text",
           "x": 0.7153333333333334,
           "y": 0.23867069486404832,
-          "uniqueID": "id-1236",
+          "uniqueID": "id-1333",
           "ioValues": [
             {
               "name": "Font Size",
               "ioValue": 10
-            },
-            {
-              "name": "Text",
-              "ioValue": "528.056652625",
-              "currentEquation": "Lorem Ipsum"
             }
           ],
           "fontFamily": "ANTON",
@@ -507,7 +517,7 @@
           "atomType": "Readme",
           "x": 0.6406666666666666,
           "y": 0.4441087613293051,
-          "uniqueID": "id-1237",
+          "uniqueID": "id-1334",
           "name": "README",
           "ioValues": [
             {
@@ -522,7 +532,7 @@
           "atomType": "Code",
           "x": 0.408,
           "y": 0.45921450151057397,
-          "uniqueID": "id-1238",
+          "uniqueID": "id-1335",
           "ioValues": [
             {
               "name": "shape",
@@ -536,7 +546,7 @@
           "atomType": "Code",
           "x": 0.404,
           "y": 0.6555891238670695,
-          "uniqueID": "id-1239",
+          "uniqueID": "id-1336",
           "ioValues": [
             {
               "name": "shape",
@@ -550,7 +560,7 @@
           "atomType": "Readme",
           "x": 0.6386666666666667,
           "y": 0.6374622356495467,
-          "uniqueID": "id-1240",
+          "uniqueID": "id-1337",
           "name": "README",
           "ioValues": [
             {
@@ -560,43 +570,50 @@
           ],
           "readMeText": "Height",
           "global": true
+        },
+        {
+          "atomType": "Constant",
+          "x": 0.8133333333333334,
+          "y": 0.743202416918429,
+          "uniqueID": "id-1338",
+          "value": 10
         }
       ],
       "allConnectors": [
         {
           "ap2Name": "shape",
-          "ap1ID": "id-1233",
-          "ap2ID": "id-1234"
+          "ap1ID": "id-1330",
+          "ap2ID": "id-1331"
         },
         {
           "ap2Name": "Text",
-          "ap1ID": "id-1234",
-          "ap2ID": "id-1236"
+          "ap1ID": "id-1331",
+          "ap2ID": "id-1333"
         },
         {
           "ap2Name": "shape",
-          "ap1ID": "id-1235",
-          "ap2ID": "id-1238"
+          "ap1ID": "id-1332",
+          "ap2ID": "id-1335"
         },
         {
           "ap2Name": "shape",
-          "ap1ID": "id-1235",
-          "ap2ID": "id-1239"
+          "ap1ID": "id-1332",
+          "ap2ID": "id-1336"
+        },
+        {
+          "ap2Name": "value",
+          "ap1ID": "id-1335",
+          "ap2ID": "id-1334"
+        },
+        {
+          "ap2Name": "value",
+          "ap1ID": "id-1336",
+          "ap2ID": "id-1337"
         },
         {
           "ap2Name": "number or geometry",
-          "ap1ID": "id-1236",
-          "ap2ID": "id-1232"
-        },
-        {
-          "ap2Name": "value",
-          "ap1ID": "id-1238",
-          "ap2ID": "id-1237"
-        },
-        {
-          "ap2Name": "value",
-          "ap1ID": "id-1239",
-          "ap2ID": "id-1240"
+          "ap1ID": "id-1338",
+          "ap2ID": "id-1329"
         }
       ],
       "parentRepo": {
@@ -710,7 +727,7 @@
     {
       "ap2Name": "InputShape",
       "ap1ID": "id-970",
-      "ap2ID": "id-1241"
+      "ap2ID": "id-1339"
     },
     {
       "ap2Name": "xDist",
@@ -746,6 +763,11 @@
       "ap2Name": "geometry1",
       "ap1ID": "id-906",
       "ap2ID": "id-970"
+    },
+    {
+      "ap2Name": "value",
+      "ap1ID": "id-1339",
+      "ap2ID": "id-1326"
     }
   ],
   "unitsKey": "MM",
