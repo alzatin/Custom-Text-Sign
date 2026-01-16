@@ -7,8 +7,8 @@
   "ioValues": [
     {
       "name": "Text",
-      "ioValue": "I like cranberries",
-      "currentEquation": "I like cranberries"
+      "ioValue": "I like strawberries",
+      "currentEquation": "I like strawberries"
     },
     {
       "name": "Font_Size",
@@ -72,7 +72,7 @@
         },
         {
           "name": "Text",
-          "ioValue": "I like cranberries",
+          "ioValue": "I like strawberries",
           "currentEquation": "Lorem Ipsum"
         }
       ],
@@ -135,7 +135,7 @@
         },
         {
           "name": "xDist",
-          "ioValue": -214.0283213125
+          "ioValue": -229.5849619375
         },
         {
           "name": "yDist",
@@ -179,8 +179,8 @@
     },
     {
       "atomType": "Difference",
-      "x": 0.7631027253668763,
-      "y": 0.38972809667673713,
+      "x": 0.7589098532494759,
+      "y": 0.39274924471299094,
       "uniqueID": "id-970",
       "ioValues": [
         {
@@ -202,7 +202,7 @@
       "ioValues": [
         {
           "name": "x",
-          "ioValue": 528.056642625
+          "ioValue": 559.169923875
         },
         {
           "name": "y",
@@ -310,7 +310,7 @@
       "ioValues": [
         {
           "name": "width",
-          "ioValue": 528.056642625
+          "ioValue": 559.169923875
         },
         {
           "name": "length",
@@ -351,7 +351,7 @@
             },
             {
               "name": "width",
-              "ioValue": 528.056642625
+              "ioValue": 559.169923875
             },
             {
               "name": "rad",
@@ -639,6 +639,34 @@
       },
       "unitsKey": "Unitless",
       "fileTypeVersion": 1
+    },
+    {
+      "atomType": "Circle",
+      "x": 0.33228511530398325,
+      "y": 0.8580060422960726,
+      "uniqueID": "id-1546",
+      "ioValues": [
+        {
+          "name": "diameter",
+          "ioValue": 10
+        }
+      ]
+    },
+    {
+      "atomType": "Extrude",
+      "x": 0.5379746835443038,
+      "y": 0.8670694864048338,
+      "uniqueID": "id-1549",
+      "ioValues": [
+        {
+          "name": "geometry",
+          "ioValue": "__GEOMETRY_INPUT__"
+        },
+        {
+          "name": "height",
+          "ioValue": 10
+        }
+      ]
     }
   ],
   "allConnectors": [
@@ -708,11 +736,6 @@
       "ap2ID": "id-956"
     },
     {
-      "ap2Name": "value",
-      "ap1ID": "id-962",
-      "ap2ID": "id-1456"
-    },
-    {
       "ap2Name": "zDist",
       "ap1ID": "id-966",
       "ap2ID": "id-956"
@@ -771,6 +794,16 @@
       "ap2Name": "value",
       "ap1ID": "id-1436",
       "ap2ID": "id-1326"
+    },
+    {
+      "ap2Name": "geometry",
+      "ap1ID": "id-1546",
+      "ap2ID": "id-1549"
+    },
+    {
+      "ap2Name": "value",
+      "ap1ID": "id-1549",
+      "ap2ID": "id-1456"
     }
   ],
   "unitsKey": "MM",
