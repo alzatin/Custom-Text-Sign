@@ -62,8 +62,8 @@
     },
     {
       "atomType": "Text",
-      "x": 0.26953125,
-      "y": 0.1933534743202417,
+      "x": 0.2786666666666667,
+      "y": 0.21450151057401814,
       "uniqueID": "id-928",
       "ioValues": [
         {
@@ -273,8 +273,8 @@
     },
     {
       "atomType": "Readme",
-      "x": 0.7713333333333333,
-      "y": 0.7039274924471299,
+      "x": 0.7553333333333333,
+      "y": 0.7220543806646527,
       "uniqueID": "id-1326",
       "name": "README",
       "ioValues": [
@@ -441,8 +441,8 @@
     },
     {
       "atomType": "GitHubMolecule",
-      "x": 0.666,
-      "y": 0.6827794561933535,
+      "x": 0.6813333333333333,
+      "y": 0.6102719033232629,
       "uniqueID": "id-1436",
       "name": "Get-Width",
       "ioValues": [
@@ -634,6 +634,21 @@
       },
       "unitsKey": "Unitless",
       "fileTypeVersion": 1
+    },
+    {
+      "atomType": "Readme",
+      "x": 0.64,
+      "y": 0.9274924471299093,
+      "uniqueID": "id-1456",
+      "name": "README",
+      "ioValues": [
+        {
+          "name": "value",
+          "ioValue": "__GEOMETRY_INPUT__"
+        }
+      ],
+      "readMeText": "Text",
+      "global": true
     }
   ],
   "allConnectors": [
@@ -701,6 +716,11 @@
       "ap2Name": "geometry",
       "ap1ID": "id-962",
       "ap2ID": "id-956"
+    },
+    {
+      "ap2Name": "value",
+      "ap1ID": "id-962",
+      "ap2ID": "id-1456"
     },
     {
       "ap2Name": "zDist",
