@@ -7,8 +7,8 @@
   "ioValues": [
     {
       "name": "Text",
-      "ioValue": "Te QUIERO",
-      "currentEquation": "Te QUIERO"
+      "ioValue": "Me gustas mucho",
+      "currentEquation": "Me gustas mucho"
     },
     {
       "name": "Font_Size",
@@ -57,18 +57,18 @@
     },
     {
       "atomType": "GitHubMolecule",
-      "x": 0.66015625,
-      "y": 0.4380664652567976,
+      "x": 0.7265624999999999,
+      "y": 0.1510574018126888,
       "uniqueID": "id-906",
       "name": "Rounded-rectangle-rep",
       "ioValues": [
         {
           "name": "width",
-          "ioValue": 333.388673875
+          "ioValue": 521.416017625
         },
         {
           "name": "length",
-          "ioValue": 100.44922075
+          "ioValue": 107.48047075
         },
         {
           "name": "radius",
@@ -105,7 +105,7 @@
             },
             {
               "name": "width",
-              "ioValue": 333.388673875
+              "ioValue": 521.416017625
             },
             {
               "name": "rad",
@@ -113,7 +113,7 @@
             },
             {
               "name": "length",
-              "ioValue": 100.44922075
+              "ioValue": 107.48047075
             }
           ],
           "codeVersion": 1,
@@ -217,8 +217,8 @@
     },
     {
       "atomType": "Text",
-      "x": 0.2744140625,
-      "y": 0.37462235649546827,
+      "x": 0.26953125,
+      "y": 0.1933534743202417,
       "uniqueID": "id-928",
       "ioValues": [
         {
@@ -227,7 +227,7 @@
         },
         {
           "name": "Text",
-          "ioValue": "Te QUIERO",
+          "ioValue": "Me gustas mucho",
           "currentEquation": "Lorem Ipsum"
         }
       ],
@@ -280,8 +280,8 @@
     },
     {
       "atomType": "Move",
-      "x": 0.6513671875,
-      "y": 0.7764350453172205,
+      "x": 0.701171875,
+      "y": 0.5679758308157099,
       "uniqueID": "id-956",
       "ioValues": [
         {
@@ -290,11 +290,11 @@
         },
         {
           "name": "xDist",
-          "ioValue": -141.6943369375
+          "ioValue": -235.7080088125
         },
         {
           "name": "yDist",
-          "ioValue": -25.224610374999997
+          "ioValue": -28.740235374999997
         },
         {
           "name": "zDist",
@@ -304,8 +304,8 @@
     },
     {
       "atomType": "Extrude",
-      "x": 0.36328124999999994,
-      "y": 0.5649546827794562,
+      "x": 0.3115234375,
+      "y": 0.4954682779456194,
       "uniqueID": "id-962",
       "ioValues": [
         {
@@ -320,8 +320,8 @@
     },
     {
       "atomType": "Equation",
-      "x": 0.22265625,
-      "y": 0.770392749244713,
+      "x": 0.232421875,
+      "y": 0.6827794561933535,
       "uniqueID": "id-966",
       "name": "x/2",
       "ioValues": [
@@ -335,8 +335,8 @@
     },
     {
       "atomType": "Difference",
-      "x": 0.779296875,
-      "y": 0.5770392749244713,
+      "x": 0.8388671875,
+      "y": 0.5166163141993958,
       "uniqueID": "id-970",
       "ioValues": [
         {
@@ -351,14 +351,14 @@
     },
     {
       "atomType": "Equation",
-      "x": 0.5703125,
-      "y": 0.5558912386706948,
+      "x": 0.5927734375,
+      "y": 0.3867069486404834,
       "uniqueID": "id-977",
       "name": "-x/2 + y/2",
       "ioValues": [
         {
           "name": "x",
-          "ioValue": 333.388673875
+          "ioValue": 521.416017625
         },
         {
           "name": "y",
@@ -369,14 +369,14 @@
     },
     {
       "atomType": "Equation",
-      "x": 0.45703124999999994,
-      "y": 0.8640483383685801,
+      "x": 0.48925781250000006,
+      "y": 0.6555891238670695,
       "uniqueID": "id-981",
       "name": "-y/2 + x/2",
       "ioValues": [
         {
           "name": "y",
-          "ioValue": 100.44922075
+          "ioValue": 107.48047075
         },
         {
           "name": "x",
@@ -391,6 +391,42 @@
       "y": 0.5468277945619335,
       "uniqueID": "id-986",
       "name": "Margin"
+    },
+    {
+      "atomType": "Gcode",
+      "x": 0.8105468749999999,
+      "y": 0.836858006042296,
+      "uniqueID": "id-997",
+      "ioValues": [
+        {
+          "name": "geometry",
+          "ioValue": "__GEOMETRY_INPUT__"
+        },
+        {
+          "name": "Tool Size",
+          "ioValue": 3,
+          "currentEquation": "3"
+        },
+        {
+          "name": "Passes",
+          "ioValue": 2
+        },
+        {
+          "name": "Speed",
+          "ioValue": 1500
+        },
+        {
+          "name": "Cut Through",
+          "ioValue": 0
+        },
+        {
+          "name": "Part Name",
+          "ioValue": "Custom-Sign",
+          "currentEquation": "Custom-Sign"
+        }
+      ],
+      "partName": "Custom-Sign",
+      "sortDirection": "Left"
     }
   ],
   "allConnectors": [
@@ -473,6 +509,11 @@
       "ap2Name": "number or geometry",
       "ap1ID": "id-970",
       "ap2ID": "id-884"
+    },
+    {
+      "ap2Name": "geometry",
+      "ap1ID": "id-970",
+      "ap2ID": "id-997"
     },
     {
       "ap2Name": "xDist",
