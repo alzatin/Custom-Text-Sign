@@ -1,13 +1,49 @@
 {
-    "atomType": "Molecule",
-    "x": 0,
-    "y": 0,
-    "uniqueID": "id-883",
-    "name": "Custom-Sign",
-    "topLevel": true,
-    "allAtoms": [],
-    "allConnectors": [],
-    "unitsKey": "MM",
-    "fileTypeVersion": 1,
-    "filetypeVersion": 1
+  "atomType": "Molecule",
+  "x": 0,
+  "y": 0,
+  "uniqueID": "id-883",
+  "name": "Custom-Sign",
+  "ioValues": [
+    {
+      "name": "Text",
+      "ioValue": 10
+    },
+    {
+      "name": "Input",
+      "ioValue": 10
+    }
+  ],
+  "topLevel": true,
+  "allAtoms": [
+    {
+      "atomType": "Output",
+      "x": 0.98,
+      "y": 0.5,
+      "uniqueID": "id-884",
+      "ioValues": [
+        {
+          "name": "number or geometry",
+          "ioValue": "__GEOMETRY_INPUT__"
+        }
+      ]
+    },
+    {
+      "atomType": "Input",
+      "x": 0.031349999999999996,
+      "y": 0.2416918429003021,
+      "uniqueID": "id-886",
+      "name": "Text"
+    },
+    {
+      "atomType": "Input",
+      "x": 0.031349999999999996,
+      "y": 0.5105740181268882,
+      "uniqueID": "id-891"
+    }
+  ],
+  "allConnectors": [],
+  "unitsKey": "MM",
+  "fileTypeVersion": 1,
+  "filetypeVersion": 1
 }
