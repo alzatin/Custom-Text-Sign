@@ -744,8 +744,8 @@
     },
     {
       "atomType": "Code",
-      "x": 0.2548330404217926,
-      "y": 0.8066465256797584,
+      "x": 0.2565905096660809,
+      "y": 0.8217522658610272,
       "uniqueID": "id-2048",
       "ioValues": [
         {
@@ -758,11 +758,12 @@
         },
         {
           "name": "shapetype",
-          "ioValue": "__GEOMETRY_INPUT__"
+          "ioValue": "rect",
+          "currentEquation": "rect"
         }
       ],
       "codeVersion": 1,
-      "code": "\n// Example Code\nconst Inputs = [\n  { inputName: \"shapetype\", type: \"geometry\", defaultValue: null },\n  { inputName: \"radius\", type: \"number\", defaultValue: 6 },\n  { inputName: \"height\", type: \"number\", defaultValue: 10 }\n];\n\nlet importedShape = library[shape];\nlet newPlane = replicad.makePlane()\nlet circDraw = replicad.drawCircle(radius)\nlet sketchCir = circDraw.sketchOnPlane(newPlane)\nlet cyl = sketchCir.extrude(height)\nlet cylObj = {\n  geometry: [cyl],\n  dimension: \"3D\",\n  tags: [\"createdcirc\"],\n  color: \"#A3CE5B\",\n  plane: null,\n  bom: []\n};\n\n//let assembly = await Assembly([importedShape, cylObj]);\nreturn cylObj;\n"
+      "code": "\n// Example Code\nconst Inputs = [\n  { inputName: \"shapetype\", type: \"string\", defaultValue: \"rect\" },\n  { inputName: \"radius\", type: \"number\", defaultValue: 6 },\n  { inputName: \"height\", type: \"number\", defaultValue: 10 }\n];\n\n//let importedShape = library[shape];\nlet newPlane = replicad.makePlane()\nlet circDraw\nif(shapetype == \"circle\"){\ncircDraw = replicad.drawCircle(radius)\n}\nelse {\n  circDraw = replicad.drawRoundedRectangle(5, 10, 5)\n}\nlet sketchCir = circDraw.sketchOnPlane(newPlane)\nlet cyl = sketchCir.extrude(height)\nlet cylObj = {\n  geometry: [cyl],\n  dimension: \"3D\",\n  tags: [\"createdcirc\"],\n  color: \"#A3CE5B\",\n  plane: null,\n  bom: []\n};\n\n//let assembly = await Assembly([importedShape, cylObj]);\nreturn cylObj;\n"
     }
   ],
   "allConnectors": [
