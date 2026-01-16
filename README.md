@@ -10,5 +10,7 @@
 
 Project Width
 
+**Value:** 528.056652625
+
 
 
