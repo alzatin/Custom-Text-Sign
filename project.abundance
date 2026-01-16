@@ -24,13 +24,11 @@
     },
     {
       "name": "RouterBitSize",
-      "ioValue": 3,
-      "currentEquation": "3"
+      "ioValue": 3
     },
     {
       "name": "GCPasses",
-      "ioValue": 2,
-      "currentEquation": "2"
+      "ioValue": 2
     }
   ],
   "topLevel": true,
@@ -189,8 +187,8 @@
     },
     {
       "atomType": "Difference",
-      "x": 0.7215189873417721,
-      "y": 0.3564954682779456,
+      "x": 0.8,
+      "y": 0.3202416918429003,
       "uniqueID": "id-970",
       "ioValues": [
         {
@@ -283,8 +281,8 @@
     },
     {
       "atomType": "Readme",
-      "x": 0.8291139240506329,
-      "y": 0.8851963746223566,
+      "x": 0.8865979381443299,
+      "y": 0.8640483383685801,
       "uniqueID": "id-1326",
       "name": "README",
       "ioValues": [
@@ -293,13 +291,57 @@
           "ioValue": "__GEOMETRY_INPUT__"
         }
       ],
-      "readMeText": "Project Width",
+      "readMeText": "Project Width2",
       "global": true
     },
     {
+      "atomType": "Export",
+      "x": 0.6845360824742268,
+      "y": 0.8882175226586102,
+      "uniqueID": "id-1522",
+      "ioValues": [
+        {
+          "name": "geometry",
+          "ioValue": "__GEOMETRY_INPUT__"
+        },
+        {
+          "name": "File Type",
+          "ioValue": "STL",
+          "currentEquation": "STL"
+        },
+        {
+          "name": "Resolution (dpi)",
+          "ioValue": 96
+        },
+        {
+          "name": "Part Name",
+          "ioValue": "Custom-Sign-STL",
+          "currentEquation": "Custom-Sign-STL"
+        }
+      ],
+      "type": null,
+      "resolution": 96,
+      "importIndex": 0,
+      "partName": "Custom-Sign-STL"
+    },
+    {
+      "atomType": "Input",
+      "x": 0.0264,
+      "y": 0.5439999999999999,
+      "uniqueID": "id-1528",
+      "name": "RouterBitSize"
+    },
+    {
+      "atomType": "Input",
+      "x": 0.0264,
+      "y": 0.6399999999999999,
+      "uniqueID": "id-1531",
+      "name": "GCPasses"
+    },
+    {
       "atomType": "GitHubMolecule",
-      "x": 0.6428571428571428,
-      "y": 0.16314199395770393,
+      "x": 0.6752577319587629,
+      "y": 0.14501510574018128,
       "uniqueID": "id-906",
       "name": "Rounded-rectangle-rep",
       "ioValues": [
@@ -451,8 +493,8 @@
     },
     {
       "atomType": "GitHubMolecule",
-      "x": 0.7314647377938517,
-      "y": 0.6918429003021148,
+      "x": 0.7690721649484537,
+      "y": 0.7613293051359517,
       "uniqueID": "id-1436",
       "name": "Get-Width",
       "ioValues": [
@@ -634,50 +676,6 @@
       },
       "unitsKey": "Unitless",
       "fileTypeVersion": 1
-    },
-    {
-      "atomType": "Export",
-      "x": 0.6301989150090416,
-      "y": 0.8006042296072508,
-      "uniqueID": "id-1522",
-      "ioValues": [
-        {
-          "name": "geometry",
-          "ioValue": "__GEOMETRY_INPUT__"
-        },
-        {
-          "name": "File Type",
-          "ioValue": "STL",
-          "currentEquation": "STL"
-        },
-        {
-          "name": "Resolution (dpi)",
-          "ioValue": 96
-        },
-        {
-          "name": "Part Name",
-          "ioValue": "Custom-Sign-STL",
-          "currentEquation": "Custom-Sign-STL"
-        }
-      ],
-      "type": null,
-      "resolution": 96,
-      "importIndex": 0,
-      "partName": "Custom-Sign-STL"
-    },
-    {
-      "atomType": "Input",
-      "x": 0.0264,
-      "y": 0.6102719033232629,
-      "uniqueID": "id-1528",
-      "name": "RouterBitSize"
-    },
-    {
-      "atomType": "Input",
-      "x": 0.0264,
-      "y": 0.7062719033232628,
-      "uniqueID": "id-1531",
-      "name": "GCPasses"
     }
   ],
   "allConnectors": [
@@ -802,16 +800,6 @@
       "ap2ID": "id-981"
     },
     {
-      "ap2Name": "geometry1",
-      "ap1ID": "id-906",
-      "ap2ID": "id-970"
-    },
-    {
-      "ap2Name": "value",
-      "ap1ID": "id-1436",
-      "ap2ID": "id-1326"
-    },
-    {
       "ap2Name": "Tool Size",
       "ap1ID": "id-1528",
       "ap2ID": "id-997"
@@ -820,6 +808,16 @@
       "ap2Name": "Passes",
       "ap1ID": "id-1531",
       "ap2ID": "id-997"
+    },
+    {
+      "ap2Name": "geometry1",
+      "ap1ID": "id-906",
+      "ap2ID": "id-970"
+    },
+    {
+      "ap2Name": "value",
+      "ap1ID": "id-1436",
+      "ap2ID": "id-1326"
     }
   ],
   "unitsKey": "MM",
