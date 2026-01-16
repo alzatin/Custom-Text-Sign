@@ -6,13 +6,7 @@
 
 
 
- Text 
-
-![readme](/readmeid-1456.svg?v=vxyund)
-
-
-
-Project Width
+ Project Width
 
 **Value:** 559.169933875
 

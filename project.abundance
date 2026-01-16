@@ -287,53 +287,6 @@
       "global": true
     },
     {
-      "atomType": "Readme",
-      "x": 0.7088607594936709,
-      "y": 0.851963746223565,
-      "uniqueID": "id-1456",
-      "name": "README",
-      "ioValues": [
-        {
-          "name": "value",
-          "ioValue": "__GEOMETRY_INPUT__"
-        }
-      ],
-      "readMeText": "Text",
-      "global": true
-    },
-    {
-      "atomType": "Extrude",
-      "x": 0.5669077757685352,
-      "y": 0.836858006042296,
-      "uniqueID": "id-1549",
-      "ioValues": [
-        {
-          "name": "geometry",
-          "ioValue": "__GEOMETRY_INPUT__"
-        },
-        {
-          "name": "height",
-          "ioValue": 5
-        }
-      ]
-    },
-    {
-      "atomType": "Rectangle",
-      "x": 0.337251356238698,
-      "y": 0.8157099697885197,
-      "uniqueID": "id-1641",
-      "ioValues": [
-        {
-          "name": "x length",
-          "ioValue": 10
-        },
-        {
-          "name": "y length",
-          "ioValue": 10
-        }
-      ]
-    },
-    {
       "atomType": "GitHubMolecule",
       "x": 0.6428571428571428,
       "y": 0.16314199395770393,
@@ -788,16 +741,6 @@
       "ap2Name": "x",
       "ap1ID": "id-986",
       "ap2ID": "id-981"
-    },
-    {
-      "ap2Name": "value",
-      "ap1ID": "id-1549",
-      "ap2ID": "id-1456"
-    },
-    {
-      "ap2Name": "geometry",
-      "ap1ID": "id-1641",
-      "ap2ID": "id-1549"
     },
     {
       "ap2Name": "geometry1",
