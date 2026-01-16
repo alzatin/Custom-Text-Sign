@@ -19,6 +19,10 @@
       "name": "ply_thickness",
       "ioValue": 10,
       "currentEquation": "10"
+    },
+    {
+      "name": "Margin",
+      "ioValue": 10
     }
   ],
   "topLevel": true,
@@ -254,8 +258,8 @@
     },
     {
       "atomType": "Code",
-      "x": 0.4921875,
-      "y": 0.311178247734139,
+      "x": 0.4521484375,
+      "y": 0.2990936555891239,
       "uniqueID": "id-950",
       "ioValues": [
         {
@@ -276,8 +280,8 @@
     },
     {
       "atomType": "Move",
-      "x": 0.5908203125,
-      "y": 0.7250755287009063,
+      "x": 0.6123046875,
+      "y": 0.770392749244713,
       "uniqueID": "id-956",
       "ioValues": [
         {
@@ -286,11 +290,11 @@
         },
         {
           "name": "xDist",
-          "ioValue": 0
+          "ioValue": -101.1962900625
         },
         {
           "name": "yDist",
-          "ioValue": 0
+          "ioValue": -23.095704124999997
         },
         {
           "name": "zDist",
@@ -331,8 +335,8 @@
     },
     {
       "atomType": "Difference",
-      "x": 0.728515625,
-      "y": 0.676737160120846,
+      "x": 0.775390625,
+      "y": 0.6012084592145015,
       "uniqueID": "id-970",
       "ioValues": [
         {
@@ -344,6 +348,41 @@
           "ioValue": "__GEOMETRY_INPUT__"
         }
       ]
+    },
+    {
+      "atomType": "Equation",
+      "x": 0.517578125,
+      "y": 0.5861027190332326,
+      "uniqueID": "id-977",
+      "name": "-x/2",
+      "ioValues": [
+        {
+          "name": "x",
+          "ioValue": 202.392580125
+        }
+      ],
+      "currentEquation": "-x/2"
+    },
+    {
+      "atomType": "Equation",
+      "x": 0.46777343750000006,
+      "y": 0.8640483383685801,
+      "uniqueID": "id-981",
+      "name": "-y/2",
+      "ioValues": [
+        {
+          "name": "y",
+          "ioValue": 46.191408249999995
+        }
+      ],
+      "currentEquation": "-y/2"
+    },
+    {
+      "atomType": "Input",
+      "x": 0.031349999999999996,
+      "y": 0.5468277945619335,
+      "uniqueID": "id-986",
+      "name": "Margin"
     }
   ],
   "allConnectors": [
@@ -393,9 +432,19 @@
       "ap2ID": "id-906"
     },
     {
+      "ap2Name": "x",
+      "ap1ID": "id-939",
+      "ap2ID": "id-977"
+    },
+    {
       "ap2Name": "length",
       "ap1ID": "id-950",
       "ap2ID": "id-906"
+    },
+    {
+      "ap2Name": "y",
+      "ap1ID": "id-950",
+      "ap2ID": "id-981"
     },
     {
       "ap2Name": "geometry2",
@@ -410,6 +459,21 @@
     {
       "ap2Name": "zDist",
       "ap1ID": "id-966",
+      "ap2ID": "id-956"
+    },
+    {
+      "ap2Name": "number or geometry",
+      "ap1ID": "id-970",
+      "ap2ID": "id-884"
+    },
+    {
+      "ap2Name": "xDist",
+      "ap1ID": "id-977",
+      "ap2ID": "id-956"
+    },
+    {
+      "ap2Name": "yDist",
+      "ap1ID": "id-981",
       "ap2ID": "id-956"
     }
   ],
