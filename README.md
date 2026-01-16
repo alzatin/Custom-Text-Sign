@@ -8,6 +8,8 @@
 
  Project Dimensions
 
+**Value:** Width: 318.47657449999997, Height: 318.47657449999997
+
 Default Font: ANTON
 
 **Value:** __GEOMETRY_INPUT__
