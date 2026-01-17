@@ -370,8 +370,8 @@
     },
     {
       "atomType": "Code",
-      "x": 0.544,
-      "y": 0.7280966767371602,
+      "x": 0.6213333333333333,
+      "y": 0.8308157099697885,
       "uniqueID": "id-1727",
       "ioValues": [
         {
@@ -788,8 +788,8 @@
     },
     {
       "atomType": "Molecule",
-      "x": 0.35200000000000004,
-      "y": 0.891238670694864,
+      "x": 0.38866666666666666,
+      "y": 0.879154078549849,
       "uniqueID": "id-2278",
       "name": "Screw holes",
       "ioValues": [
@@ -1333,8 +1333,8 @@
         },
         {
           "atomType": "Assembly",
-          "x": 0.6726666666666666,
-          "y": 0.5740181268882175,
+          "x": 0.692,
+          "y": 0.622356495468278,
           "uniqueID": "id-2383",
           "ioValues": [
             {
@@ -1349,28 +1349,25 @@
         },
         {
           "atomType": "Code",
-          "x": 0.806,
-          "y": 0.8429003021148036,
+          "x": 0.816,
+          "y": 0.4441087613293051,
           "uniqueID": "id-2388",
           "ioValues": [
             {
               "name": "shape",
               "ioValue": "__GEOMETRY_INPUT__"
-            },
-            {
-              "name": "radius",
-              "ioValue": 5
-            },
-            {
-              "name": "height",
-              "ioValue": 10
             }
           ],
           "codeVersion": 1,
-          "code": "\n// Example Code\nconst Inputs = [\n  { inputName: \"shape\", type: \"geometry\", defaultValue: null },\n  { inputName: \"radius\", type: \"number\", defaultValue: 5 },\n  { inputName: \"height\", type: \"number\", defaultValue: 10 }\n];\n\nlet importedShape = library[shape];\nlet newPlane = replicad.makePlane()\nlet circDraw = replicad.drawCircle(radius)\nlet sketchCir = circDraw.sketchOnPlane(newPlane)\nlet cyl = sketchCir.extrude(height)\nlet cylObj = {\n  geometry: [cyl],\n  dimension: \"3D\",\n  tags: [\"createdCylinder\"],\n  color: \"#A3CE5B\",\n  plane: null,\n  bom: []\n};\n\nlet assembly = await Assembly([importedShape, cylObj]);\nreturn assembly;\n"
+          "code": "\n// Example Code\nconst Inputs = [\n  { inputName: \"shape\", type: \"geometry\", defaultValue: null },\n  { inputName: \"bool\", type: \"string\", defaultValue: \"False\" },\n];\n\nconsole.log(bool)\nif (bool){\n  return library[shape]\n}\nelse{\n  return null\n}\n\n"
         }
       ],
       "allConnectors": [
+        {
+          "ap2Name": "bool",
+          "ap1ID": "id-2282",
+          "ap2ID": "id-2388"
+        },
         {
           "ap2Name": "geometry",
           "ap1ID": "id-2300",
@@ -1432,12 +1429,33 @@
           "ap2ID": "id-2357"
         },
         {
-          "ap2Name": "number or geometry",
+          "ap2Name": "shape",
           "ap1ID": "id-2383",
+          "ap2ID": "id-2388"
+        },
+        {
+          "ap2Name": "number or geometry",
+          "ap1ID": "id-2388",
           "ap2ID": "id-2280"
         }
       ],
       "fileTypeVersion": 1
+    },
+    {
+      "atomType": "Assembly",
+      "x": 0.8660000000000001,
+      "y": 0.5709969788519638,
+      "uniqueID": "id-2394",
+      "ioValues": [
+        {
+          "name": "Shape 1",
+          "ioValue": null
+        },
+        {
+          "name": "Shape 2",
+          "ioValue": null
+        }
+      ]
     }
   ],
   "allConnectors": [
@@ -1547,11 +1565,6 @@
       "ap2ID": "id-997"
     },
     {
-      "ap2Name": "number or geometry",
-      "ap1ID": "id-970",
-      "ap2ID": "id-884"
-    },
-    {
       "ap2Name": "geometry",
       "ap1ID": "id-970",
       "ap2ID": "id-1522"
@@ -1560,6 +1573,11 @@
       "ap2Name": "InputShape",
       "ap1ID": "id-970",
       "ap2ID": "id-1633"
+    },
+    {
+      "ap2Name": "Shape 1",
+      "ap1ID": "id-970",
+      "ap2ID": "id-2394"
     },
     {
       "ap2Name": "xDist",
@@ -1640,6 +1658,16 @@
       "ap2Name": "Screw_holes",
       "ap1ID": "id-2271",
       "ap2ID": "id-2278"
+    },
+    {
+      "ap2Name": "Shape 2",
+      "ap1ID": "id-2278",
+      "ap2ID": "id-2394"
+    },
+    {
+      "ap2Name": "number or geometry",
+      "ap1ID": "id-2394",
+      "ap2ID": "id-884"
     }
   ],
   "unitsKey": "MM",
