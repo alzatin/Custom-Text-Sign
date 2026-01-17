@@ -356,7 +356,7 @@
     {
       "atomType": "Input",
       "x": 0.0264,
-      "y": 0.7341389728096678,
+      "y": 0.7359999999999999,
       "uniqueID": "id-1724",
       "name": "2DShape",
       "type": "array",
@@ -401,24 +401,9 @@
       ]
     },
     {
-      "atomType": "Readme",
-      "x": 0.851493848857645,
-      "y": 0.7794561933534743,
-      "uniqueID": "id-1835",
-      "name": "README",
-      "ioValues": [
-        {
-          "name": "value",
-          "ioValue": "__GEOMETRY_INPUT__"
-        }
-      ],
-      "readMeText": "Default Font: ANTON",
-      "global": true
-    },
-    {
       "atomType": "Input",
       "x": 0.0264,
-      "y": 0.8398791540785498,
+      "y": 0.8670694864048338,
       "uniqueID": "id-1938",
       "name": "Font",
       "type": "array",

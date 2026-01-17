@@ -10,9 +10,5 @@
 
 **Value:** Width: 288.1959010752969, Height: 332.7799605833336
 
-Default Font: ANTON
-
-**Value:** __GEOMETRY_INPUT__
-
 
 
