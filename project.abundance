@@ -7,8 +7,8 @@
   "ioValues": [
     {
       "name": "Text",
-      "ioValue": "I like strawberrie",
-      "currentEquation": "I like strawberrie"
+      "ioValue": "I like strawberries",
+      "currentEquation": "I like strawberries"
     },
     {
       "name": "Font_Size",
@@ -37,8 +37,8 @@
     },
     {
       "name": "Font",
-      "ioValue": "ANTON",
-      "currentEquation": "ANTON"
+      "ioValue": "ROBOTO",
+      "currentEquation": "ROBOTO"
     }
   ],
   "topLevel": true,
@@ -81,7 +81,7 @@
     {
       "atomType": "Text",
       "x": 0.20474516695957823,
-      "y": 0.2084592145015106,
+      "y": 0.1903323262839879,
       "uniqueID": "id-928",
       "ioValues": [
         {
@@ -90,12 +90,12 @@
         },
         {
           "name": "Text",
-          "ioValue": "I like strawberrie",
+          "ioValue": "I like strawberries",
           "currentEquation": "Lorem Ipsum"
         },
         {
           "name": "Font Family",
-          "ioValue": "GREAT_VIBES",
+          "ioValue": "ROBOTO",
           "currentEquation": "GREAT_VIBES"
         }
       ],
@@ -158,11 +158,11 @@
         },
         {
           "name": "xDist",
-          "ioValue": -84.33000100000001
+          "ioValue": -114.79248146875
         },
         {
           "name": "yDist",
-          "ioValue": -14.895001
+          "ioValue": -11.396485375000001
         },
         {
           "name": "zDist",
@@ -225,7 +225,7 @@
       "ioValues": [
         {
           "name": "x",
-          "ioValue": 188.66000200000002
+          "ioValue": 249.5849629375
         },
         {
           "name": "y",
@@ -243,7 +243,7 @@
       "ioValues": [
         {
           "name": "y",
-          "ioValue": 49.790002
+          "ioValue": 42.79297075
         },
         {
           "name": "x",
@@ -396,7 +396,7 @@
       "ioValues": [
         {
           "name": "diameter",
-          "ioValue": 188.66000200000002
+          "ioValue": 249.5849629375
         }
       ]
     },
@@ -418,13 +418,16 @@
     {
       "atomType": "Input",
       "x": 0.0264,
-      "y": 0.8319999999999999,
+      "y": 0.8549848942598186,
       "uniqueID": "id-1938",
       "name": "Font",
       "type": "array",
       "options": [
         "ROBOTO",
-        "ANTON"
+        "ANTON",
+        "AGUAFINA",
+        "PACIFICO",
+        "NOTOSANS"
       ]
     },
     {
@@ -435,11 +438,11 @@
       "ioValues": [
         {
           "name": "radius",
-          "ioValue": 188.66000200000002
+          "ioValue": 249.5849629375
         },
         {
           "name": "height",
-          "ioValue": 49.790002
+          "ioValue": 42.79297075
         },
         {
           "name": "shapetype",
@@ -447,7 +450,7 @@
         },
         {
           "name": "width",
-          "ioValue": 188.66000200000002
+          "ioValue": 249.5849629375
         },
         {
           "name": "thick",
@@ -466,11 +469,11 @@
       "ioValues": [
         {
           "name": "width",
-          "ioValue": 188.66000200000002
+          "ioValue": 249.5849629375
         },
         {
           "name": "length",
-          "ioValue": 49.790002
+          "ioValue": 42.79297075
         },
         {
           "name": "radius",
@@ -507,7 +510,7 @@
             },
             {
               "name": "width",
-              "ioValue": 188.66000200000002
+              "ioValue": 249.5849629375
             },
             {
               "name": "rad",
@@ -515,7 +518,7 @@
             },
             {
               "name": "length",
-              "ioValue": 49.790002
+              "ioValue": 42.79297075
             }
           ],
           "codeVersion": 1,
@@ -771,6 +774,30 @@
       },
       "unitsKey": "Unitless",
       "fileTypeVersion": 1
+    },
+    {
+      "atomType": "Text",
+      "x": 0.24340949033391918,
+      "y": 0.716012084592145,
+      "uniqueID": "id-2158",
+      "ioValues": [
+        {
+          "name": "Font Size",
+          "ioValue": 10
+        },
+        {
+          "name": "Text",
+          "ioValue": "Lorem Ipsum",
+          "currentEquation": "Lorem Ipsum"
+        },
+        {
+          "name": "Font Family",
+          "ioValue": "AGUAFINA",
+          "currentEquation": "AGUAFINA"
+        }
+      ],
+      "fontFamily": "AGUAFINA",
+      "selectedFontIndex": 5
     }
   ],
   "allConnectors": [
@@ -933,6 +960,11 @@
       "ap2Name": "geometry1",
       "ap1ID": "id-1727",
       "ap2ID": "id-970"
+    },
+    {
+      "ap2Name": "Font Family",
+      "ap1ID": "id-1938",
+      "ap2ID": "id-928"
     },
     {
       "ap2Name": "shape",
