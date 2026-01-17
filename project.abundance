@@ -106,8 +106,8 @@
     },
     {
       "atomType": "Code",
-      "x": 0.3373333333333333,
-      "y": 0.17522658610271905,
+      "x": 0.30333333333333334,
+      "y": 0.16012084592145015,
       "uniqueID": "id-939",
       "ioValues": [
         {
@@ -788,14 +788,22 @@
     },
     {
       "atomType": "Molecule",
-      "x": 0.24466666666666664,
-      "y": 0.8821752265861027,
+      "x": 0.35200000000000004,
+      "y": 0.891238670694864,
       "uniqueID": "id-2278",
       "name": "Screw holes",
       "ioValues": [
         {
           "name": "ply_thickness",
           "ioValue": 14
+        },
+        {
+          "name": "width",
+          "ioValue": "__GEOMETRY_INPUT__"
+        },
+        {
+          "name": "Margin",
+          "ioValue": 20
         }
       ],
       "topLevel": false,
@@ -822,8 +830,8 @@
         },
         {
           "atomType": "GitHubMolecule",
-          "x": 0.156,
-          "y": 0.377643504531722,
+          "x": 0.20733333333333334,
+          "y": 0.5287009063444109,
           "uniqueID": "id-2300",
           "name": "-6-Wood-Screw",
           "topLevel": false,
@@ -1159,8 +1167,8 @@
         },
         {
           "atomType": "Move",
-          "x": 0.32533333333333336,
-          "y": 0.3021148036253776,
+          "x": 0.326,
+          "y": 0.3413897280966767,
           "uniqueID": "id-2340",
           "ioValues": [
             {
@@ -1177,23 +1185,189 @@
             },
             {
               "name": "zDist",
-              "ioValue": 10.5
+              "ioValue": 12
             }
           ]
         },
         {
           "atomType": "Equation",
-          "x": 0.2313333333333333,
-          "y": 0.8338368580060423,
+          "x": 0.2426666666666667,
+          "y": 0.8429003021148036,
           "uniqueID": "id-2346",
-          "name": "x - x/4",
+          "name": "x - x/7",
           "ioValues": [
             {
               "name": "x",
               "ioValue": 14
             }
           ],
-          "currentEquation": "x - x/4"
+          "currentEquation": "x - x/7"
+        },
+        {
+          "atomType": "Add-BOM-Tag",
+          "x": 0.4366666666666667,
+          "y": 0.2930513595166163,
+          "uniqueID": "id-2350",
+          "name": "Add BOM Tag",
+          "ioValues": [
+            {
+              "name": "geometry",
+              "ioValue": "__GEOMETRY_INPUT__"
+            },
+            {
+              "name": "Item Name",
+              "ioValue": "#6 Screw",
+              "currentEquation": "#6 Screw"
+            },
+            {
+              "name": "Number Needed",
+              "ioValue": 1
+            },
+            {
+              "name": "Cost (USD)",
+              "ioValue": 0
+            },
+            {
+              "name": "Source Link",
+              "ioValue": ""
+            }
+          ],
+          "BOMitem": {
+            "BOMitemName": "#6 Screw",
+            "numberNeeded": 1,
+            "costUSD": 0,
+            "source": ""
+          }
+        },
+        {
+          "atomType": "Move",
+          "x": 0.5466666666666666,
+          "y": 0.5709969788519638,
+          "uniqueID": "id-2357",
+          "ioValues": [
+            {
+              "name": "geometry",
+              "ioValue": "__GEOMETRY_INPUT__"
+            },
+            {
+              "name": "xDist",
+              "ioValue": 0
+            },
+            {
+              "name": "yDist",
+              "ioValue": -162.188721703125
+            },
+            {
+              "name": "zDist",
+              "ioValue": 0
+            }
+          ]
+        },
+        {
+          "atomType": "Move",
+          "x": 0.5766666666666667,
+          "y": 0.3202416918429003,
+          "uniqueID": "id-2363",
+          "ioValues": [
+            {
+              "name": "geometry",
+              "ioValue": "__GEOMETRY_INPUT__"
+            },
+            {
+              "name": "xDist",
+              "ioValue": 0
+            },
+            {
+              "name": "yDist",
+              "ioValue": 162.188721703125
+            },
+            {
+              "name": "zDist",
+              "ioValue": 0
+            }
+          ]
+        },
+        {
+          "atomType": "Input",
+          "x": 0.0264,
+          "y": 0.4350453172205438,
+          "uniqueID": "id-2369",
+          "name": "width",
+          "type": "geometry"
+        },
+        {
+          "atomType": "Equation",
+          "x": 0.39866666666666667,
+          "y": 0.16012084592145015,
+          "uniqueID": "id-2372",
+          "name": "x /2 - Margin",
+          "ioValues": [
+            {
+              "name": "x",
+              "ioValue": 364.37744340625
+            }
+          ],
+          "currentEquation": "x /2 - Margin"
+        },
+        {
+          "atomType": "Input",
+          "x": 0.0264,
+          "y": 0.5310453172205438,
+          "uniqueID": "id-2377",
+          "name": "Margin",
+          "type": "number"
+        },
+        {
+          "atomType": "Equation",
+          "x": 0.40066666666666667,
+          "y": 0.5830815709969788,
+          "uniqueID": "id-2380",
+          "name": "-x /2 + Margin",
+          "ioValues": [
+            {
+              "name": "x",
+              "ioValue": 364.37744340625
+            }
+          ],
+          "currentEquation": "-x /2 + Margin"
+        },
+        {
+          "atomType": "Assembly",
+          "x": 0.6726666666666666,
+          "y": 0.5740181268882175,
+          "uniqueID": "id-2383",
+          "ioValues": [
+            {
+              "name": "Shape 1",
+              "ioValue": null
+            },
+            {
+              "name": "Shape 2",
+              "ioValue": null
+            }
+          ]
+        },
+        {
+          "atomType": "Code",
+          "x": 0.806,
+          "y": 0.8429003021148036,
+          "uniqueID": "id-2388",
+          "ioValues": [
+            {
+              "name": "shape",
+              "ioValue": "__GEOMETRY_INPUT__"
+            },
+            {
+              "name": "radius",
+              "ioValue": 5
+            },
+            {
+              "name": "height",
+              "ioValue": 10
+            }
+          ],
+          "codeVersion": 1,
+          "code": "\n// Example Code\nconst Inputs = [\n  { inputName: \"shape\", type: \"geometry\", defaultValue: null },\n  { inputName: \"radius\", type: \"number\", defaultValue: 5 },\n  { inputName: \"height\", type: \"number\", defaultValue: 10 }\n];\n\nlet importedShape = library[shape];\nlet newPlane = replicad.makePlane()\nlet circDraw = replicad.drawCircle(radius)\nlet sketchCir = circDraw.sketchOnPlane(newPlane)\nlet cyl = sketchCir.extrude(height)\nlet cylObj = {\n  geometry: [cyl],\n  dimension: \"3D\",\n  tags: [\"createdCylinder\"],\n  color: \"#A3CE5B\",\n  plane: null,\n  bom: []\n};\n\nlet assembly = await Assembly([importedShape, cylObj]);\nreturn assembly;\n"
         }
       ],
       "allConnectors": [
@@ -1208,9 +1382,59 @@
           "ap2ID": "id-2346"
         },
         {
+          "ap2Name": "geometry",
+          "ap1ID": "id-2340",
+          "ap2ID": "id-2350"
+        },
+        {
           "ap2Name": "zDist",
           "ap1ID": "id-2346",
           "ap2ID": "id-2340"
+        },
+        {
+          "ap2Name": "geometry",
+          "ap1ID": "id-2350",
+          "ap2ID": "id-2357"
+        },
+        {
+          "ap2Name": "geometry",
+          "ap1ID": "id-2350",
+          "ap2ID": "id-2363"
+        },
+        {
+          "ap2Name": "Shape 1",
+          "ap1ID": "id-2357",
+          "ap2ID": "id-2383"
+        },
+        {
+          "ap2Name": "Shape 2",
+          "ap1ID": "id-2363",
+          "ap2ID": "id-2383"
+        },
+        {
+          "ap2Name": "x",
+          "ap1ID": "id-2369",
+          "ap2ID": "id-2372"
+        },
+        {
+          "ap2Name": "x",
+          "ap1ID": "id-2369",
+          "ap2ID": "id-2380"
+        },
+        {
+          "ap2Name": "yDist",
+          "ap1ID": "id-2372",
+          "ap2ID": "id-2363"
+        },
+        {
+          "ap2Name": "yDist",
+          "ap1ID": "id-2380",
+          "ap2ID": "id-2357"
+        },
+        {
+          "ap2Name": "number or geometry",
+          "ap1ID": "id-2383",
+          "ap2ID": "id-2280"
         }
       ],
       "fileTypeVersion": 1
@@ -1281,6 +1505,11 @@
       "ap2Name": "width",
       "ap1ID": "id-939",
       "ap2ID": "id-2048"
+    },
+    {
+      "ap2Name": "width",
+      "ap1ID": "id-939",
+      "ap2ID": "id-2278"
     },
     {
       "ap2Name": "length",
@@ -1361,6 +1590,11 @@
       "ap2Name": "x",
       "ap1ID": "id-986",
       "ap2ID": "id-981"
+    },
+    {
+      "ap2Name": "Margin",
+      "ap1ID": "id-986",
+      "ap2ID": "id-2278"
     },
     {
       "ap2Name": "Tool Size",
