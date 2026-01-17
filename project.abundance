@@ -20,8 +20,7 @@
     },
     {
       "name": "Margin",
-      "ioValue": 20,
-      "currentEquation": "20"
+      "ioValue": 20
     },
     {
       "name": "RouterBitSize",
@@ -198,8 +197,8 @@
     },
     {
       "atomType": "Difference",
-      "x": 0.781195079086116,
-      "y": 0.2175226586102719,
+      "x": 0.7829525483304043,
+      "y": 0.1903323262839879,
       "uniqueID": "id-970",
       "ioValues": [
         {
@@ -358,7 +357,8 @@
       "type": "array",
       "options": [
         "rectangle",
-        "circle"
+        "circle",
+        "hexagon"
       ]
     },
     {
@@ -424,8 +424,8 @@
     },
     {
       "atomType": "Code",
-      "x": 0.29701230228471,
-      "y": 0.7734138972809668,
+      "x": 0.4015817223198594,
+      "y": 0.8277945619335348,
       "uniqueID": "id-2048",
       "ioValues": [
         {
@@ -434,7 +434,7 @@
         },
         {
           "name": "height",
-          "ioValue": 14
+          "ioValue": 54.902345749999995
         },
         {
           "name": "shapetype",
@@ -442,11 +442,15 @@
         },
         {
           "name": "width",
+          "ioValue": 328.4765645
+        },
+        {
+          "name": "thick",
           "ioValue": 10
         }
       ],
       "codeVersion": 1,
-      "code": "\n// Example Code\nconst Inputs = [\n  { inputName: \"shapetype\", type: \"string\", defaultValue: \"rect\" },\n  { inputName: \"radius\", type: \"number\", defaultValue: 6 },\n  { inputName: \"width\", type: \"number\", defaultValue: 10 },\n  { inputName: \"height\", type: \"number\", defaultValue: 10 }\n];\n\n//let importedShape = library[shape];\nlet newPlane = replicad.makePlane()\nlet circDraw\nif(shapetype == \"circle\"){\ncircDraw = replicad.drawCircle(radius/2)\n}\nelse {\n  circDraw = replicad.drawRoundedRectangle(5, 10, 1)\n}\nlet sketchCir = circDraw.sketchOnPlane(newPlane)\nlet cyl = sketchCir.extrude(height)\nlet cylObj = {\n  geometry: [cyl],\n  dimension: \"3D\",\n  tags: [\"createdcirc\"],\n  color: \"#A3CE5B\",\n  plane: null,\n  bom: []\n};\n\n//let assembly = await Assembly([importedShape, cylObj]);\nreturn cylObj;\n"
+      "code": "\n// Example Code\nconst Inputs = [\n  { inputName: \"shapetype\", type: \"string\", defaultValue: \"rect\" },\n  { inputName: \"radius\", type: \"number\", defaultValue: 6 },\n  { inputName: \"width\", type: \"number\", defaultValue: 10 },\n  { inputName: \"height\", type: \"number\", defaultValue: 10 },\n  { inputName: \"thick\", type: \"number\", defaultValue: 10 }\n];\n\n//let importedShape = library[shape];\nlet newPlane = replicad.makePlane()\nlet circDraw\nif(shapetype == \"circle\"){\ncircDraw = replicad.drawCircle(radius/2)\n}\nelse {\n  circDraw = replicad.drawRoundedRectangle(width, height, 1)\n}\nlet sketchCir = circDraw.sketchOnPlane(newPlane)\nlet cyl = sketchCir.extrude(thick)\nlet cylObj = {\n  geometry: [cyl],\n  dimension: \"3D\",\n  tags: [\"createdcirc\"],\n  color: \"#A3CE5B\",\n  plane: null,\n  bom: []\n};\n\n//let assembly = await Assembly([importedShape, cylObj]);\nreturn cylObj;\n"
     },
     {
       "atomType": "GitHubMolecule",
@@ -816,6 +820,11 @@
       "ap2ID": "id-2048"
     },
     {
+      "ap2Name": "width",
+      "ap1ID": "id-939",
+      "ap2ID": "id-2048"
+    },
+    {
       "ap2Name": "length",
       "ap1ID": "id-950",
       "ap2ID": "id-906"
@@ -824,6 +833,11 @@
       "ap2Name": "y",
       "ap1ID": "id-950",
       "ap2ID": "id-981"
+    },
+    {
+      "ap2Name": "height",
+      "ap1ID": "id-950",
+      "ap2ID": "id-2048"
     },
     {
       "ap2Name": "geometry2",
