@@ -7,13 +7,12 @@
   "ioValues": [
     {
       "name": "Text",
-      "ioValue": "I like strawberries",
-      "currentEquation": "I like strawberries"
+      "ioValue": "I like strawberrie",
+      "currentEquation": "I like strawberrie"
     },
     {
       "name": "Font_Size",
-      "ioValue": 30,
-      "currentEquation": "30"
+      "ioValue": 30
     },
     {
       "name": "ply_thickness",
@@ -81,8 +80,8 @@
     },
     {
       "atomType": "Text",
-      "x": 0.20650263620386644,
-      "y": 0.1903323262839879,
+      "x": 0.20474516695957823,
+      "y": 0.2084592145015106,
       "uniqueID": "id-928",
       "ioValues": [
         {
@@ -91,12 +90,17 @@
         },
         {
           "name": "Text",
-          "ioValue": "I like strawberries",
+          "ioValue": "I like strawberrie",
           "currentEquation": "Lorem Ipsum"
+        },
+        {
+          "name": "Font Family",
+          "ioValue": "GREAT_VIBES",
+          "currentEquation": "GREAT_VIBES"
         }
       ],
-      "fontFamily": "ANTON",
-      "selectedFontIndex": 0
+      "fontFamily": "GREAT_VIBES",
+      "selectedFontIndex": 8
     },
     {
       "atomType": "Code",
@@ -154,11 +158,11 @@
         },
         {
           "name": "xDist",
-          "ioValue": -115.6787119375
+          "ioValue": -84.33000100000001
         },
         {
           "name": "yDist",
-          "ioValue": -13.088379906250001
+          "ioValue": -14.895001
         },
         {
           "name": "zDist",
@@ -221,7 +225,7 @@
       "ioValues": [
         {
           "name": "x",
-          "ioValue": 251.357423875
+          "ioValue": 188.66000200000002
         },
         {
           "name": "y",
@@ -239,7 +243,7 @@
       "ioValues": [
         {
           "name": "y",
-          "ioValue": 46.1767598125
+          "ioValue": 49.790002
         },
         {
           "name": "x",
@@ -292,8 +296,8 @@
     },
     {
       "atomType": "Readme",
-      "x": 0.8053333333333333,
-      "y": 0.47129909365558914,
+      "x": 0.8857644991212654,
+      "y": 0.19939577039274922,
       "uniqueID": "id-1326",
       "name": "README",
       "ioValues": [
@@ -392,7 +396,7 @@
       "ioValues": [
         {
           "name": "diameter",
-          "ioValue": 251.357423875
+          "ioValue": 188.66000200000002
         }
       ]
     },
@@ -431,11 +435,11 @@
       "ioValues": [
         {
           "name": "radius",
-          "ioValue": 251.357423875
+          "ioValue": 188.66000200000002
         },
         {
           "name": "height",
-          "ioValue": 46.1767598125
+          "ioValue": 49.790002
         },
         {
           "name": "shapetype",
@@ -443,7 +447,7 @@
         },
         {
           "name": "width",
-          "ioValue": 251.357423875
+          "ioValue": 188.66000200000002
         },
         {
           "name": "thick",
@@ -462,11 +466,11 @@
       "ioValues": [
         {
           "name": "width",
-          "ioValue": 251.357423875
+          "ioValue": 188.66000200000002
         },
         {
           "name": "length",
-          "ioValue": 46.1767598125
+          "ioValue": 49.790002
         },
         {
           "name": "radius",
@@ -503,7 +507,7 @@
             },
             {
               "name": "width",
-              "ioValue": 251.357423875
+              "ioValue": 188.66000200000002
             },
             {
               "name": "rad",
@@ -511,7 +515,7 @@
             },
             {
               "name": "length",
-              "ioValue": 46.1767598125
+              "ioValue": 49.790002
             }
           ],
           "codeVersion": 1,
@@ -608,8 +612,8 @@
     },
     {
       "atomType": "GitHubMolecule",
-      "x": 0.7249560632688928,
-      "y": 0.4561933534743203,
+      "x": 0.8154657293497364,
+      "y": 0.48942598187311176,
       "uniqueID": "id-1633",
       "name": "Get-Dimensions",
       "ioValues": [
@@ -675,6 +679,11 @@
             {
               "name": "Font Size",
               "ioValue": 10
+            },
+            {
+              "name": "Font Family",
+              "ioValue": "ROBOTO",
+              "currentEquation": "ROBOTO"
             }
           ],
           "fontFamily": "ANTON",
