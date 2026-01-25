@@ -24,7 +24,8 @@
     },
     {
       "name": "RouterBitSize",
-      "ioValue": 6
+      "ioValue": 3,
+      "currentEquation": "3"
     },
     {
       "name": "GCPasses",
@@ -265,8 +266,8 @@
     },
     {
       "atomType": "Gcode",
-      "x": 0.8760984182776801,
-      "y": 0.755287009063444,
+      "x": 0.8766666666666667,
+      "y": 0.7371601208459214,
       "uniqueID": "id-997",
       "ioValues": [
         {
@@ -275,7 +276,7 @@
         },
         {
           "name": "Tool Size",
-          "ioValue": 6
+          "ioValue": 3
         },
         {
           "name": "Passes",
@@ -422,8 +423,8 @@
     },
     {
       "atomType": "Code",
-      "x": 0.468,
-      "y": 0.7673716012084593,
+      "x": 0.5013333333333333,
+      "y": 0.782477341389728,
       "uniqueID": "id-2048",
       "ioValues": [
         {
