@@ -16,8 +16,7 @@
     },
     {
       "name": "ply_thickness",
-      "ioValue": 14,
-      "currentEquation": "14"
+      "ioValue": 14
     },
     {
       "name": "Margin",
@@ -25,12 +24,11 @@
     },
     {
       "name": "RouterBitSize",
-      "ioValue": 3
+      "ioValue": 6
     },
     {
       "name": "GCPasses",
-      "ioValue": 2,
-      "currentEquation": "2"
+      "ioValue": 3
     },
     {
       "name": "2DShape",
@@ -63,24 +61,24 @@
     },
     {
       "atomType": "Input",
-      "x": 0.0264,
-      "y": 0.16,
+      "x": 0.031349999999999996,
+      "y": 0.19,
       "uniqueID": "id-886",
       "name": "Text",
       "type": "string"
     },
     {
       "atomType": "Input",
-      "x": 0.0264,
-      "y": 0.256,
+      "x": 0.031349999999999996,
+      "y": 0.304,
       "uniqueID": "id-891",
       "name": "Font_Size",
       "type": "number"
     },
     {
       "atomType": "Input",
-      "x": 0.0264,
-      "y": 0.352,
+      "x": 0.031349999999999996,
+      "y": 0.418,
       "uniqueID": "id-924",
       "name": "ply_thickness"
     },
@@ -154,8 +152,8 @@
     },
     {
       "atomType": "Move",
-      "x": 0.5815061963775024,
-      "y": 0.4380664652567976,
+      "x": 0.5766666666666667,
+      "y": 0.4984894259818732,
       "uniqueID": "id-956",
       "ioValues": [
         {
@@ -208,8 +206,8 @@
     },
     {
       "atomType": "Difference",
-      "x": 0.678741658722593,
-      "y": 0.5166163141993958,
+      "x": 0.6819999999999999,
+      "y": 0.4682779456193354,
       "uniqueID": "id-970",
       "ioValues": [
         {
@@ -260,15 +258,15 @@
     },
     {
       "atomType": "Input",
-      "x": 0.0264,
-      "y": 0.44799999999999995,
+      "x": 0.031349999999999996,
+      "y": 0.532,
       "uniqueID": "id-986",
       "name": "Margin"
     },
     {
       "atomType": "Gcode",
-      "x": 0.8274547187797903,
-      "y": 0.7341389728096678,
+      "x": 0.8760984182776801,
+      "y": 0.755287009063444,
       "uniqueID": "id-997",
       "ioValues": [
         {
@@ -277,11 +275,11 @@
         },
         {
           "name": "Tool Size",
-          "ioValue": 3
+          "ioValue": 6
         },
         {
           "name": "Passes",
-          "ioValue": 2
+          "ioValue": 3
         },
         {
           "name": "Speed",
@@ -302,8 +300,8 @@
     },
     {
       "atomType": "Readme",
-      "x": 0.8745421245421247,
-      "y": 0.3323262839879154,
+      "x": 0.81,
+      "y": 0.3595166163141994,
       "uniqueID": "id-1326",
       "name": "README",
       "ioValues": [
@@ -317,8 +315,8 @@
     },
     {
       "atomType": "Export",
-      "x": 0.7111534795042899,
-      "y": 0.851963746223565,
+      "x": 0.7680140597539543,
+      "y": 0.7764350453172205,
       "uniqueID": "id-1522",
       "ioValues": [
         {
@@ -347,22 +345,22 @@
     },
     {
       "atomType": "Input",
-      "x": 0.0264,
-      "y": 0.5439999999999999,
+      "x": 0.031349999999999996,
+      "y": 0.646,
       "uniqueID": "id-1528",
       "name": "RouterBitSize"
     },
     {
       "atomType": "Input",
-      "x": 0.0264,
-      "y": 0.6399999999999999,
+      "x": 0.031349999999999996,
+      "y": 0.76,
       "uniqueID": "id-1531",
       "name": "GCPasses"
     },
     {
       "atomType": "Input",
-      "x": 0.0264,
-      "y": 0.7359999999999999,
+      "x": 0.031349999999999996,
+      "y": 0.874,
       "uniqueID": "id-1724",
       "name": "2DShape",
       "type": "array",
@@ -374,8 +372,8 @@
     },
     {
       "atomType": "Code",
-      "x": 0.6148713060057197,
-      "y": 0.755287009063444,
+      "x": 0.6213333333333333,
+      "y": 0.8308157099697885,
       "uniqueID": "id-1727",
       "ioValues": [
         {
@@ -408,8 +406,8 @@
     },
     {
       "atomType": "Input",
-      "x": 0.0264,
-      "y": 0.8319999999999999,
+      "x": 0.031349999999999996,
+      "y": 0.95,
       "uniqueID": "id-1938",
       "name": "Font",
       "type": "array",
@@ -454,8 +452,8 @@
     },
     {
       "atomType": "Input",
-      "x": 0.0264,
-      "y": 0.9279999999999998,
+      "x": 0.031349999999999996,
+      "y": 0.95,
       "uniqueID": "id-2271",
       "name": "Screw_holes",
       "type": "boolean"
@@ -557,32 +555,32 @@
         },
         {
           "atomType": "Input",
-          "x": 0.0264,
-          "y": 0.16,
+          "x": 0.031349999999999996,
+          "y": 0.19,
           "uniqueID": "id-902",
           "name": "width",
           "type": "number"
         },
         {
           "atomType": "Input",
-          "x": 0.0264,
-          "y": 0.256,
+          "x": 0.031349999999999996,
+          "y": 0.304,
           "uniqueID": "id-903",
           "name": "length",
           "type": "number"
         },
         {
           "atomType": "Input",
-          "x": 0.0264,
-          "y": 0.352,
+          "x": 0.031349999999999996,
+          "y": 0.418,
           "uniqueID": "id-904",
           "name": "radius",
           "type": "number"
         },
         {
           "atomType": "Input",
-          "x": 0.0264,
-          "y": 0.44799999999999995,
+          "x": 0.031349999999999996,
+          "y": 0.532,
           "uniqueID": "id-905",
           "name": "height",
           "type": "number"
@@ -646,8 +644,8 @@
     },
     {
       "atomType": "GitHubMolecule",
-      "x": 0.7573260073260073,
-      "y": 0.39879154078549844,
+      "x": 0.7506666666666667,
+      "y": 0.23564954682779457,
       "uniqueID": "id-1633",
       "name": "Get-Dimensions",
       "ioValues": [
@@ -672,8 +670,8 @@
         },
         {
           "atomType": "Input",
-          "x": 0.0264,
-          "y": 0.16,
+          "x": 0.031349999999999996,
+          "y": 0.19,
           "uniqueID": "id-1627",
           "name": "InputShape",
           "type": "geometry"
@@ -846,16 +844,16 @@
         },
         {
           "atomType": "Input",
-          "x": 0.0264,
-          "y": 0.16,
+          "x": 0.031349999999999996,
+          "y": 0.19,
           "uniqueID": "id-2282",
           "name": "Screw_holes",
           "type": "boolean"
         },
         {
           "atomType": "Input",
-          "x": 0.0264,
-          "y": 0.256,
+          "x": 0.031349999999999996,
+          "y": 0.304,
           "uniqueID": "id-2337",
           "name": "ply_thickness",
           "type": "number"
@@ -984,8 +982,8 @@
         },
         {
           "atomType": "Input",
-          "x": 0.0264,
-          "y": 0.352,
+          "x": 0.031349999999999996,
+          "y": 0.418,
           "uniqueID": "id-2369",
           "name": "width",
           "type": "geometry"
@@ -1010,8 +1008,8 @@
         },
         {
           "atomType": "Input",
-          "x": 0.0264,
-          "y": 0.44799999999999995,
+          "x": 0.031349999999999996,
+          "y": 0.532,
           "uniqueID": "id-2377",
           "name": "Margin",
           "type": "number"
@@ -1581,6 +1579,11 @@
       "ap2ID": "id-997"
     },
     {
+      "ap2Name": "geometry",
+      "ap1ID": "id-970",
+      "ap2ID": "id-1522"
+    },
+    {
       "ap2Name": "InputShape",
       "ap1ID": "id-970",
       "ap2ID": "id-1633"
@@ -1589,11 +1592,6 @@
       "ap2Name": "Shape 1",
       "ap1ID": "id-970",
       "ap2ID": "id-2394"
-    },
-    {
-      "ap2Name": "geometry",
-      "ap1ID": "id-970",
-      "ap2ID": "id-1522"
     },
     {
       "ap2Name": "xDist",
