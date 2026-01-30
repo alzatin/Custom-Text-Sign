@@ -24,7 +24,8 @@
     },
     {
       "name": "RouterBitSize",
-      "ioValue": 3
+      "ioValue": 3,
+      "currentEquation": "3"
     },
     {
       "name": "GCPasses",
@@ -265,8 +266,8 @@
     },
     {
       "atomType": "Gcode",
-      "x": 0.8733798604187438,
-      "y": 0.7220543806646527,
+      "x": 0.8664007976071785,
+      "y": 0.7794561933534743,
       "uniqueID": "id-997",
       "ioValues": [
         {
