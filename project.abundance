@@ -265,8 +265,8 @@
     },
     {
       "atomType": "Gcode",
-      "x": 0.8664007976071785,
-      "y": 0.7794561933534743,
+      "x": 0.8694444444444444,
+      "y": 0.7854984894259819,
       "uniqueID": "id-997",
       "ioValues": [
         {
@@ -315,8 +315,8 @@
     },
     {
       "atomType": "Export",
-      "x": 0.7680140597539543,
-      "y": 0.7764350453172205,
+      "x": 0.7490740740740741,
+      "y": 0.8338368580060423,
       "uniqueID": "id-1522",
       "ioValues": [
         {
@@ -325,8 +325,8 @@
         },
         {
           "name": "File Type",
-          "ioValue": "STL",
-          "currentEquation": "STL"
+          "ioValue": "SVG",
+          "currentEquation": "SVG"
         },
         {
           "name": "Resolution (dpi)",
@@ -338,7 +338,7 @@
           "currentEquation": "Custom-Sign-STL"
         }
       ],
-      "type": null,
+      "type": "SVG",
       "resolution": 96,
       "importIndex": 0,
       "partName": "Custom-Sign-STL"
