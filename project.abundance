@@ -22,18 +22,15 @@
     },
     {
       "name": "Margin",
-      "ioValue": 20,
-      "currentEquation": "20"
+      "ioValue": 20
     },
     {
       "name": "RouterBitSize",
-      "ioValue": 3,
-      "currentEquation": "3"
+      "ioValue": 3
     },
     {
       "name": "GCPasses",
-      "ioValue": 2,
-      "currentEquation": "2"
+      "ioValue": 2
     },
     {
       "name": "2DShape",
