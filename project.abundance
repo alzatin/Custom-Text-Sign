@@ -12,23 +12,28 @@
     },
     {
       "name": "Font_Size",
-      "ioValue": 45
+      "ioValue": 45,
+      "currentEquation": "45"
     },
     {
       "name": "ply_thickness",
-      "ioValue": 14
+      "ioValue": 14,
+      "currentEquation": "14"
     },
     {
       "name": "Margin",
-      "ioValue": 20
+      "ioValue": 20,
+      "currentEquation": "20"
     },
     {
       "name": "RouterBitSize",
-      "ioValue": 3
+      "ioValue": 3,
+      "currentEquation": "3"
     },
     {
       "name": "GCPasses",
-      "ioValue": 2
+      "ioValue": 2,
+      "currentEquation": "2"
     },
     {
       "name": "2DShape",
