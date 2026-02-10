@@ -22,15 +22,18 @@
     },
     {
       "name": "Margin",
-      "ioValue": 20
+      "ioValue": 20,
+      "currentEquation": "20"
     },
     {
       "name": "RouterBitSize",
-      "ioValue": 3
+      "ioValue": 3,
+      "currentEquation": "3"
     },
     {
       "name": "GCPasses",
-      "ioValue": 2
+      "ioValue": 2,
+      "currentEquation": "2"
     },
     {
       "name": "2DShape",
@@ -86,8 +89,8 @@
     },
     {
       "atomType": "Text",
-      "x": 0.17866666666666667,
-      "y": 0.2054380664652568,
+      "x": 0.17911877394636014,
+      "y": 0.21450151057401814,
       "uniqueID": "id-928",
       "ioValues": [
         {
@@ -154,8 +157,8 @@
     },
     {
       "atomType": "Move",
-      "x": 0.5766666666666667,
-      "y": 0.4984894259818732,
+      "x": 0.5795019157088123,
+      "y": 0.4924471299093656,
       "uniqueID": "id-956",
       "ioValues": [
         {
@@ -208,8 +211,8 @@
     },
     {
       "atomType": "Difference",
-      "x": 0.6879361914257228,
-      "y": 0.45317220543806647,
+      "x": 0.6867816091954023,
+      "y": 0.4138972809667674,
       "uniqueID": "id-970",
       "ioValues": [
         {
@@ -424,8 +427,8 @@
     },
     {
       "atomType": "Code",
-      "x": 0.5013333333333333,
-      "y": 0.782477341389728,
+      "x": 0.5411877394636015,
+      "y": 0.6555891238670695,
       "uniqueID": "id-2048",
       "ioValues": [
         {
@@ -1472,6 +1475,32 @@
         }
       ],
       "fileTypeVersion": 1
+    },
+    {
+      "atomType": "Move",
+      "x": 0.5316091954022988,
+      "y": 0.9033232628398792,
+      "uniqueID": "id-2599",
+      "ioValues": [
+        {
+          "name": "geometry",
+          "ioValue": "__GEOMETRY_INPUT__"
+        },
+        {
+          "name": "xDist",
+          "ioValue": 0,
+          "currentEquation": "0"
+        },
+        {
+          "name": "yDist",
+          "ioValue": 0,
+          "currentEquation": "0"
+        },
+        {
+          "name": "zDist",
+          "ioValue": 0
+        }
+      ]
     }
   ],
   "allConnectors": [
