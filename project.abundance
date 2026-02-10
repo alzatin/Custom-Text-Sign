@@ -495,6 +495,31 @@
       ]
     },
     {
+      "atomType": "Move",
+      "x": 0.5316091954022988,
+      "y": 0.9033232628398792,
+      "uniqueID": "id-2599",
+      "ioValues": [
+        {
+          "name": "geometry",
+          "ioValue": "__GEOMETRY_INPUT__"
+        },
+        {
+          "name": "xDist",
+          "ioValue": 0
+        },
+        {
+          "name": "yDist",
+          "ioValue": 0,
+          "currentEquation": "0"
+        },
+        {
+          "name": "zDist",
+          "ioValue": 0
+        }
+      ]
+    },
+    {
       "atomType": "GitHubMolecule",
       "x": 0.632,
       "y": 0.21148036253776434,
@@ -1475,32 +1500,6 @@
         }
       ],
       "fileTypeVersion": 1
-    },
-    {
-      "atomType": "Move",
-      "x": 0.5316091954022988,
-      "y": 0.9033232628398792,
-      "uniqueID": "id-2599",
-      "ioValues": [
-        {
-          "name": "geometry",
-          "ioValue": "__GEOMETRY_INPUT__"
-        },
-        {
-          "name": "xDist",
-          "ioValue": 0,
-          "currentEquation": "0"
-        },
-        {
-          "name": "yDist",
-          "ioValue": 0,
-          "currentEquation": "0"
-        },
-        {
-          "name": "zDist",
-          "ioValue": 0
-        }
-      ]
     }
   ],
   "allConnectors": [
